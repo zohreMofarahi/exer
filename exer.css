@@ -1,0 +1,25 @@
+div {
+    margin-left: 60px;
+}
+
+
+
+h1 {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    
+}
+ hr {
+width: 35px;
+height: 6px;
+background-color: red;
+text-align: left;
+margin-left: 0px;
+border: red 1px solid;
+border-radius: 20%;
+ }
+  
+p {
+    margin-right:100px;
+}
