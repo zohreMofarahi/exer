@@ -1,25 +1,83 @@
-div {
-    margin-left: 60px;
+body {
+    background-color: #f1f1f1;
 }
 
 
 
-h1 {
-    color: red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+.header {
+    color: white;
+    text-align: right;
+    background-color: black;
+    padding:2px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+p {
+    font-size: 18px;
+ padding-right: 20px;
+
+}
+
+
+.all {
+    display: flex;
+    flex-direction:row;
+    justify-content:stretch;
+   
+}
+
+.menu {
+background-color: white;
+width: 20%;
+height: 100vh;
+text-align:center ;
+
+}
+.squares {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+       
+}
+
+
+
+.red {
+    background-color: red;
+    width: 22%;
+    height: 18%;
+    
+   
+}
+
+.blue {
+    background-color: rgb(26, 148, 219);
+    width: 22%;
+    height: 18%;
     
 }
- hr {
-width: 35px;
-height: 6px;
-background-color: red;
-text-align: left;
-margin-left: 0px;
-border: red 1px solid;
-border-radius: 20%;
- }
-/*   
-p {
-    margin-right:100px;
-} */
+
+.green {
+    background-color: green;
+    width: 22%;
+    height: 18%;
+
+}
+
+.yellow {
+
+    background-color: rgb(255, 179, 0);
+    width: 22%;
+    height: 18%;
+   
+}
+
+.squares p {
+    color: white;
+    padding-top: 20%;
+    padding-left: 3%;
+    }
+
